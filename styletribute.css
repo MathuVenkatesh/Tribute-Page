@@ -19,7 +19,7 @@ body {
 h1 {
   font-size: 4rem;
   margin-bottom: 0;
-  background-color: red;
+  
 }
 
 @media (max-width: 460px) {
