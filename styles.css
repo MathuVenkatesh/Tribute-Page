@@ -1,0 +1,100 @@
+body{
+    margin:0;
+    padding: 0;
+    color:rgb(187, 78, 1);
+   
+}
+
+
+
+#main-doc{
+    
+    position: absolute;
+    left: 351px;
+    background-image: linear-gradient(rgb(232, 232, 221), rgb(211, 221, 231) , rgb(234, 239, 224));
+    padding-left: 50px;
+    margin-top: 0;
+}
+
+#navbar{
+    
+    width: 350px;
+    height: 100%;
+    border: 1px solid gray;
+    position: fixed;
+    border-top:0;
+    border-left: 0;
+    background-image: linear-gradient(rgb(232, 232, 221), rgb(211, 221, 231) , rgb(234, 239, 224));
+    
+    
+
+}
+.nav-link{
+    display: block;
+    padding: 30px;
+    border-top: 1px solid gray;
+    
+}
+
+.main-section{
+    margin-top: 50px;
+}
+#navbar header{
+  
+    text-align: left;
+    margin-left: 30px;
+}
+#navbar a{
+color:rgb(92, 46, 5);
+}
+h1{
+    color: rgb(52, 40, 228);
+}
+pre,code{
+    margin-left: 50px;
+    background-color: rgb(209, 242, 242);
+}
+a{
+    color: rgb(150, 11, 127);
+}
+a:hover{
+    background-color: white;
+}
+p{
+    margin-left: 20px;
+    line-height: 2;
+}
+
+li{
+    padding: 10px;
+    line-height: 1.5;
+}
+
+@media only screen and (max-width: 815px) {
+    /* For mobile phones: */
+    
+    #navbar header{
+        text-align: center;
+    }
+    #navbar {      
+      position: absolute;
+      top: 0;
+      padding: 0;
+      margin: 0;
+      width: 100%;
+      max-height: 450px;
+      border: none;
+      z-index: 1;
+      border-bottom: 2px solid;
+      text-align: center;
+    }
+  
+    #main-doc {
+      position: relative;
+      left: 0;
+      margin-top: 454px;
+      overflow: hidden;
+      
+    }
+  }
+  
